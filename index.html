@@ -1,160 +1,46 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ru">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>freeteens</title>
+  <title>18+</title>
   <style>
-    .bg_body {
-      background: url('images/bg_body.png') no-repeat center center fixed;
-      background-size: cover;
-      color: #fff;
-    }
-
-    body {
+    * {
       margin: 0;
-      font-family: Arial, sans-serif;
-      text-align: center;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    #translate-container {
-      background-color: rgba(0, 0, 0, 0.7);
-      padding: 10px;
-      text-align: center;
-      position: relative;
-      z-index: 1000;
+    html, body {
+      height: 100%;
+      background-color: #fff; /* Белый фон */
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
-    #google_translate_element {
+    a {
       display: inline-block;
-    }
-
-    #container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-
-    #takeTest {
-      color: yellow;
-      font-size: 24px;
-      margin: 20px 0;
-    }
-
-    #instructions {
-      color: red;
-      font-size: 20px;
-      margin: 10px 0;
-      display: none;
-    }
-
-    #getOffer {
-      color: white;
-      font-size: 18px;
-      margin: 10px 0;
-    }
-
-    img {
-      max-width: 100%;
-      height: auto;
-      cursor: pointer;
-      user-select: none;
-      -webkit-tap-highlight-color: transparent;
+      text-decoration: none;
       outline: none;
     }
 
-    #Image3 {
-      border: 2px solid #333;
-      border-radius: 10px;
+    a:focus, a:active {
+      outline: none;
     }
 
-    #startButton {
-      width: 70%;
+    img {
+      width: 200px;
       height: auto;
-      margin-top: 20px;
-      border-radius: 10px;
-      display: inline-block;
-      transition: transform 0.2s ease;
-    }
-
-    #startButton:hover {
-      transform: scale(1.05);
-    }
-
-    @media (max-width: 600px) {
-      #takeTest {
-        font-size: 20px;
-      }
-
-      #instructions {
-        font-size: 16px;
-      }
-
-      #getOffer {
-        font-size: 16px;
-      }
-
-      #startButton {
-        width: 90%;
-      }
+      cursor: pointer;
+      user-select: none;         /* Отключает выделение */
+      -webkit-user-drag: none;   /* Отключает перетаскивание в Safari */
     }
   </style>
-
-  <script>
-    const offerLink = "https://prev.affomelody.com/click?pid=3749&offer_id=282&l=1620817266";
-
-    function showInstructions() {
-      document.getElementById('instructions').style.display = 'block';
-    }
-
-    function redirectToOffer() {
-      window.open(offerLink, "_blank");
-    }
-
-    window.onload = function () {
-      document.getElementById('takeTest').textContent = "FULL VIDEO";
-      document.getElementById('instructions').textContent = "JUST ANSWER A FEW QUESTIONS AND WATCHING";
-      document.getElementById('getOffer').textContent = "YOU WILL BE REDIRECTED AUTOMATICALLY!";
-
-      document.getElementById('Image3').onclick = showInstructions;
-      document.getElementById('startButton').onclick = redirectToOffer;
-    };
-  </script>
 </head>
-
-<body class="bg_body">
-
-  <!-- Google Translate Container -->
-  <div id="translate-container">
-    <div id="google_translate_element"></div>
-  </div>
-
-  <!-- Content Container -->
-  <div id="container">
-    <p id="takeTest">FULL VIDEO</p>
-
-    <!-- Preview Image -->
-    <img src="images/xvideo.png" id="Image3" alt="Click to start the test video">
-
-    <!-- Instructions -->
-    <p id="instructions">JUST ANSWER A FEW QUESTIONS AND WATCHING</p>
-    <p id="getOffer">YOU WILL BE REDIRECTED AUTOMATICALLY!</p>
-
-    <!-- Start Button Image -->
-    <img src="images/test2.png" id="startButton" alt="Start Test">
-  </div>
-
-  <!-- Google Translate Script -->
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'en',
-        includedLanguages: 'en,ru,fr,de,it,nl,pl,pt,es,sv,da,fi,cs,el,he,tr,no',
-        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-      }, 'google_translate_element');
-    }
-  </script>
-  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
+<body>
+  <a href="https://secure.1passforallsites.com/track/MTAwMzQ3MC4yLjIzLjIzLjAuMC4wLjAuMA">
+    <img src="18+.png" alt="18+">
+  </a>
 </body>
 </html>
